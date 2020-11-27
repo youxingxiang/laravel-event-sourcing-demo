@@ -15,7 +15,7 @@ class StockRoot extends AppAggregateRoot
     /**
      * @var int 库存数量
      */
-    public int $stock_num;
+    public int $stock_num = 0;
     /**
      * @var int 扣减库存数量预警数量
      */
@@ -24,6 +24,11 @@ class StockRoot extends AppAggregateRoot
     public function purchase(Good $good, int $num): self
     {
         return $this->recordThat(new PurchaseEvent($good, $num));
+    }
+
+    public function applyPurchaseEvent(PurchaseEvent $event)
+    {
+        $this->stock_num += $event->num;
     }
 
     public function return(Good $good, int $num): self
@@ -43,7 +48,7 @@ class StockRoot extends AppAggregateRoot
 
     public function applyReturnEvent(ReturnEvent $event): void
     {
-        $this->stock_num = $event->good->stock->stock_num ?? 0;
+        $this->stock_num -= $event->num;
     }
 
 
@@ -64,7 +69,7 @@ class StockRoot extends AppAggregateRoot
 
     public function applySaleEvent(SaleEvent $event): void
     {
-        $this->stock_num = $event->good->stock->stock_num ?? 0;
+         $this->stock_num -= $event->num;
     }
 
     public function hasEnoughInventory(int $num): bool

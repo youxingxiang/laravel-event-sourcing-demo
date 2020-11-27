@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3f0f36-4593-4da9-bd75-36f46f5b5d0a" name="Default Changelist" comment="" />
+    <list default="true" id="5e3f0f36-4593-4da9-bd75-36f46f5b5d0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Stock/AggregateRoot/StockRoot.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Stock/AggregateRoot/StockRoot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +16,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -162,11 +171,25 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.StockRootTest">
+    <configuration name="StockRootTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Tests\Stock\AggregateRoot\StockRootTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Stock/AggregateRoot/StockRootTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.StockRootTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,6 +201,7 @@
       <updated>1606354797176</updated>
       <workItem from="1606354798250" duration="4653000" />
       <workItem from="1606359521978" duration="3015000" />
+      <workItem from="1606397680456" duration="12218000" />
     </task>
     <servers />
   </component>
@@ -185,25 +209,64 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="521" y="99" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606357359398">
+    <state x="325" y="99" key="#PHP" timestamp="1606395328693">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="521" y="99" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1606357359398" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606359527741">
+    <state x="325" y="99" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1606395328693" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606442316121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606359527741" />
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1606442316121" />
+    <state x="521" y="99" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606394189234">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="99" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1606394189234" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606394483647">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606394483647" />
+    <state width="1878" height="409" key="GridCell.Tab.0.bottom" timestamp="1606455292471">
+      <screen x="-1920" y="57" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606446008295" />
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606445126120" />
+    <state width="1878" height="409" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.57.1920.1080@-1920.57.1920.1080" timestamp="1606455292471" />
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606444489082" />
+    <state width="1878" height="409" key="GridCell.Tab.0.center" timestamp="1606455292469">
+      <screen x="-1920" y="57" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="183" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606446008294" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606445126119" />
+    <state width="1878" height="409" key="GridCell.Tab.0.center/0.0.1440.900/-1920.57.1920.1080@-1920.57.1920.1080" timestamp="1606455292469" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606444489075" />
+    <state width="1878" height="409" key="GridCell.Tab.0.left" timestamp="1606455292468">
+      <screen x="-1920" y="57" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="183" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606446008293" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606445126118" />
+    <state width="1878" height="409" key="GridCell.Tab.0.left/0.0.1440.900/-1920.57.1920.1080@-1920.57.1920.1080" timestamp="1606455292468" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606444489074" />
+    <state width="1878" height="409" key="GridCell.Tab.0.right" timestamp="1606455292470">
+      <screen x="-1920" y="57" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="183" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606446008295" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606445126120" />
+    <state width="1878" height="409" key="GridCell.Tab.0.right/0.0.1440.900/-1920.57.1920.1080@-1920.57.1920.1080" timestamp="1606455292470" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606444489082" />
     <state x="511" y="380" key="NewPhpFileDialog" timestamp="1606361798726">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1606361798726" />
-    <state x="251" y="89" key="SettingsEditor" timestamp="1606359734155">
+    <state x="251" y="89" key="SettingsEditor" timestamp="1606397970837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="251" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606359734155" />
+    <state x="251" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606397970837" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1606361456589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606361456589" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/es_demo@StockRootTest.xml" NAME="StockRootTest Coverage Results" MODIFIED="1606395474152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
