@@ -22,6 +22,7 @@ class StockRootTest extends TestCase
         $good = Good::create([
             'name' => '测试商品',
             'uuid' => (string)Uuid::uuid4(),
+            
         ]);
         //$this->expectException(CanNotWarehouseOutException::class);
         StockRoot::fake($good->uuid)
